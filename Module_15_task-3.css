@@ -1,0 +1,72 @@
+body {
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    font-weight: 400;
+}
+.wrapper {
+    width: 500px;
+    height: 900px;
+    background-image: url(./png-transparent-abstract-squares-background.png);
+    
+    margin: 0 auto;
+    position: relative;
+}
+.input_battons {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    width: 480px;
+    justify-content: space-between;
+    
+}
+.btn {
+    width: 100px;
+    height: 45px;
+    padding: none;
+    color: grey;
+    background-color: blue;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    
+}
+.btn:hover {
+    border: solid 2px white;
+    color: white;
+    cursor: pointer;
+}
+.btn:active {
+    transform: translate(2px, 4px);
+}
+.inp {
+    width: 250px;
+    height: 40px;
+}
+.inp::placeholder {
+    color: gray;
+}
+.field_massage {
+    position: absolute;
+    bottom: 70px;
+    left: 20px;
+    width: 460px;
+    height: 800px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.mess_element {
+    display: flex;
+    align-items: center;
+    max-width: 300px;
+    min-height: 30px;
+    border-radius: 10px;
+    color: black;
+    font-weight: 600;
+    padding: 10px;
+    word-break: break-all;
+    white-space: pre-line;
+}
+

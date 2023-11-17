@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+}
+.btn {
+    margin: 200px;
+    width: 500px;
+    height: 100px;
+    padding: none;
+    border-radius: 2px;
+    color: ghostwhite;
+    background-color: blue;
+    border: solid 1px white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 20px;
+}
+
+.btn:hover {
+    box-shadow: 10px 10px 30px 2px #c5c0c0; 
+    cursor: pointer;
+}
+.btn:active {
+    transform: translate(2px, 4px);
+}
